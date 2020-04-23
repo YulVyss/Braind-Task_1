@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Интернет магазин</title>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="Icons/adaptive-design-72.png"> -->
+    <meta name="description" content="shop">
+    <meta name="keywords" content="">
+    <meta name="author" content="Yulia Vyssotskaya">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/6e1a879e2f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div class="reviews">
+                <h1 class="reviews__title">Мои отзывы о товарах</h1>
+                <div class="reviews__roole">
+                    <p>Ваши отзывы будут опубликованы на сайте после проверки модератором.</p>
+                </div>
+                <div class="reviews__header">
+                    <ul>
+                        <li class="header__item">Фото</li>
+                        <li class="header__item">Наименование товара</li>
+                        <li class="header__item">Ваши отзывы</li>
+                        <li class="header__item">Статус отзыва</li>
+                        <li class="header__item">Действия</li>
+                    </ul>
+                </div>
+                <div class="reviews__body">
+                    <div class="product">
+                        <div class="product__description">
+                            <div class="product__img"><img src="images/drill.png" alt="Дрель"></div>
+                            <div class="product__title">Дрель ударная BOSCH PSB 550 RЕ, БЗП Арт.0603130020</div>
+                        </div>
+                        <div class="product__reviews">
+                            <div class="review">
+                                <div class="review__header">
+                                    <div class="review__date">1 августа, 2018</div>
+                                    <div class="review__button">Опубликован</div>
+                                </div>
+                                <div class="review__wrap">
+                                    <div class="review__rating">
+                                        <div class="rating__stars">
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 60%"></i>
+                                            </i>
+                                            <p class="rating__numbers">4,6</p>
+                                        </div>
+                                        <div class="rating__names">
+                                            <p>Впечатление: <span class="rating__numbers">5</span>
+                                            </p>
+                                            <p>Соответствие: <span class="rating__numbers">4</span>
+                                            </p>
+                                            <p>Надёжность: <span class="rating__numbers">5</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="review__text hide">
+                                        <p class="review__text_visible"> Значит купил я данную модель, поработал
+                                            неделю, отказал один аккумулятор, заряд держит так себе, НОООООО МАГАЗИН
+                                            АДЕКВАТНЫЙ, ОБМЕНЯЛИ НА НОВЫЙ, ПРИЧЁМ ПРИВЕЗЛИ ДОМОЙ. С ТАКИМ ПРОДАВЦОМ
+                                            ПРИЯТНО
+                                            <span id="dots">...</span><span class="review__text_hidden">ИМЕТЬ
+                                                ДЕЛО!!! СОВЕТУЮ! Я МНОГО ВСЕГО ПОКУПАЛ, И
+                                                БУДУ ПОКУПАТЬ)</span></p>
+                                        <button class="text__more" onclick="readMore()">Подробнее</button>
+                                    </div>
+                                </div>
+                                <form action="#">
+                                    <input type="text" name="review" class="review__input"
+                                        placeholder="Дополнить отзыв">
+                                    <input type="submit" class="review__button" value="отправить" name="submit">
+                                </form>
+                            </div>
+                            <div class="review review_added">
+                                <div class="review__header">
+                                    <div class="review__date">1 августа, 2018</div>
+                                    <div class="review__button review__button_added">на&nbsp;модерации</div>
+                                </div>
+                                <div class="review__wrap">
+                                    <h3 class="review__title">Дополненный отзыв</h3>
+                                    <div class="review__rating review__rating_added">
+                                        <div class="rating__stars">
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 100%;"></i>
+                                            </i>
+                                            <i class="fas fa-star stars__out">
+                                                <i class="fas fa-star stars__in" style="width: 60%"></i>
+                                            </i>
+                                            <p class="rating__numbers">4,6</p>
+                                        </div>
+                                        <div class="rating__names">
+                                            <p>Впечатление: <span class="rating__numbers">5</span>
+                                            </p>
+                                            <p>Соответствие: <span class="rating__numbers">4</span>
+                                            </p>
+                                            <p>Надёжность: <span class="rating__numbers">5</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="review__text">
+                                        <p class="review__text_visible">Год прошел, работает как пушка!</p>
+                                    </div>
+                                    <div class="review__images">
+                                        <div class="review__image"><img src="images/photo_1.png" alt="user photo">
+                                        </div>
+                                        <div class="review__image"><img src="images/photo_2.png" alt="user photo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product__description">
+                            <div class="product__img"><img src="images/screen.png" alt="Экран"></div>
+                            <div class="product__title">Декоративный металлический экран на радиатор 3-х секционный
+                                3 ДМЭР
+                            </div>
+
+                        </div>
+                        <div class="product__reviews">
+                            <div class="review review_denied">
+                                <div class="review__header">
+                                    <div class="review__date">23 июня, 2019</div>
+                                    <div class="review__button review__button_denied">Не опубликован</div>
+                                </div>
+                                <div class="review__wrap">
+                                    <div class="review__message">К сожалению, ваш отзыв не прошёл модерацию.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <div class="popup">
+        <div class="popup__close">
+        </div>
+        <div class="popup__photos">
+            <div class="popup__item"><img src="images/photo_1.png" alt="user photo"></div>
+            <div class="popup__item"><img src="images/photo_2.png" alt="user photo"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
